@@ -1,0 +1,138 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: monospace;
+    font-size: 2.5rem;
+    background-color: cornsilk;
+    border-bottom: 5px solid rgb(46, 46, 46);
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.game{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.rps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rps .fa-regular, .fa-solid{
+    font-size: 100px;
+    padding: 20px 20px;
+    background-color:darkslateblue;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid black;
+}
+
+.rps button{
+    background: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 0.1s ease-in-out;
+}
+
+.rps button:hover{
+    scale: 1.07;
+}
+
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-family: monospace;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.same{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.display-para{
+    width: 400px;
+    background-color: cornsilk;
+    padding: 6px 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.reset{
+    padding: 5px 30px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    border: 2px solid cornsilk;
+    border-radius: 7px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.reset:hover{
+    scale: 1.07;
+}
+
+.selected{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
